@@ -5,7 +5,7 @@
 // import cn from 'classnames'
 
 
-// function HtmlRenderer({ html }) {
+function HtmlRenderer({ html }) {
 
 // 	const htmlString = html?.raw || html?.rawWithAnchors || html || ''
 
@@ -47,6 +47,7 @@
 // 	}
 
 // 	return parse(htmlString, parserOptions)
-// }
+	return null
+}
 
-// export { HtmlRenderer }
+export { HtmlRenderer }
