@@ -1,5 +1,5 @@
 
-import HtmlRenderer from './src/html-renderer.mjs'
+import HtmlRenderer from './src/HtmlRenderer.mjs'
 
 export {
 	HtmlRenderer
