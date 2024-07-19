@@ -1,11 +1,9 @@
 {
   "name": "gatsby-source-daisycms",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Gatsby Source plugin for Daisy CMS",
+  "main": "index.mjs",
   "repository": "https://github.com/boberbober/gatsby-source-daisycms",
   "author": "@boberbober",
-  "license": "MIT",
-  "exports": {
-    ".": "./index.mjs"
-  }
+  "license": "MIT"
 }
