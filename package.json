@@ -1,6 +1,6 @@
 {
   "name": "gatsby-source-daisycms",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "description": "Gatsby Source plugin for Daisy CMS",
   "main": "index.mjs",
   "repository": "https://github.com/boberbober/gatsby-source-daisycms",
@@ -8,8 +8,11 @@
   "license": "MIT",
   "dependencies": {
     "classnames": "^2.5.1",
+    "dotenv": "^16.4.5",
     "gatsby": "^5.13.7",
     "gatsby-plugin-image": "^3.13.1",
-    "html-react-parser": "^5.1.12"
+    "gatsby-source-filesystem": "^5.13.1",
+    "html-react-parser": "^5.1.12",
+    "jsdom": "^24.1.0"
   }
 }
