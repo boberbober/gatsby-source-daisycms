@@ -148,7 +148,7 @@ export default async function createSchemaCustomization({
 			if (field.type === 'URI') hasUriField = true
 		}
 
-		if (hasUriField && typeDef.name !== 'Redirect') {
+		if (hasUriField && objectType.name !== 'Redirects') {
 			typeDef.interfaces.push('PageEntry')
 			typeDef.fields['breadcrumbs'] = {
 				type: '[PageEntry]',
