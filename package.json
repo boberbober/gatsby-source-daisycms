@@ -6,13 +6,13 @@
   "repository": "https://github.com/boberbober/gatsby-source-daisycms",
   "author": "@boberbober",
   "license": "MIT",
-  "dependencies": {
-    "classnames": "^2.5.1",
-    "dotenv": "^16.4.5",
-    "gatsby": "^5.13.7",
-    "gatsby-plugin-image": "^3.13.1",
-    "gatsby-source-filesystem": "^5.13.1",
-    "html-react-parser": "^5.1.12",
-    "jsdom": "^24.1.0"
+  "peerDependencies": {
+    "classnames": "^2.5",
+    "dotenv": "^16.4",
+    "gatsby": "^5.13",
+    "gatsby-plugin-image": "^3.13",
+    "gatsby-source-filesystem": "^5.13",
+    "html-react-parser": "^5.1",
+    "jsdom": "^24"
   }
 }
