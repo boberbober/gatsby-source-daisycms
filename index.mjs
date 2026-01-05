@@ -34,7 +34,7 @@ function HtmlRenderer({ html }) {
 					alt: node.attribs.alt || '',
 					className: cn(`html-image`, node.attribs.class),
 				}
-				const file = html.files.find(file => file.id === node.attribs.src)
+				const file = html.files?.find(file => file.id === node.attribs.src)
 				if (!file) return;
 				return <GatsbyImage 
 					image={getImage(file.remoteFile.childImageSharp)} 
